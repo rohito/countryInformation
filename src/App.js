@@ -6,7 +6,6 @@ const App = () => {
   const [countries, setCountries] = useState([]);
   const [searchName, setSearchName] = useState("");
   const [capital, setCapital] = useState("");
-  const [weather, setWeather] = useState([]);
 
   useEffect(() => {
     axios
